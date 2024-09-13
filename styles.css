@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.stats-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #6c63ff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#profile-pic {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    height: 64px;
+    margin: 0 auto 10px;
+    width: 64px;
+}
+
+button {
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #5554dd;
+}

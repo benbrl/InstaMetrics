@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Instagram Stats Exporter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="stats-card">
+            <h3>INSTAGRAM STATS</h3>
+            <div id="profile-pic">
+                <img id="profilePic" style="display:none;" alt="Profile Picture">
+            </div>
+
+
+            <div id="stats">
+                <p><strong id="username">Username</strong></p>
+                <p id="fullName">Full Name</p>
+                <p>Followers: <span id="followers">10,000</span></p>
+                <p>Engagement Rate: <span id="engagementRate">5%</span></p>
+                <p>Average Likes: <span id="averageLikes">500</span></p>
+            </div>
+        </div>
+        <button id="fetchButton">Récupérer les statistiques d'Instagram</button>
+        <button id="copyButton" disabled>Copier dans le presse-papiers</button>
+        <button id="exportButton" disabled>Exporter en tant qu'image</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
